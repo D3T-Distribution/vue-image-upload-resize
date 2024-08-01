@@ -6,7 +6,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-lib": "vue-cli-service build --target lib --name vue-image-upload-resize src/components/index.js",
+    "build-wc": "vue-cli-service build --target wc --name vue-image-upload-resize src/components/ImageUploader.vue",
+    "test": "vue-cli-service test:unit"
   },
   "dependencies": {
     "blueimp-canvas-to-blob": "^3.29.0",
@@ -22,6 +25,34 @@
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3"
   },
+  "files": [
+    "dist",
+    "src/components/ImageUploader.vue",
+    "src/utils/exif.js"
+  ],
+  "keywords": [
+    "vue",
+    "upload",
+    "uploader",
+    "img",
+    "image",
+    "resize"
+  ],
+  "license": "MIT",
+  "main": "dist/vue-image-upload-resize.umd.js",
+  "module": "dist/vue-image-upload-resize.common.js",
+  "unpkg": "dist/vue-image-upload-resize.umd.min.js",
+  "browser": {
+    "./sfc": "src/ImageUploader.vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D3T-Distribution/vue-image-upload-resize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/D3T-Distribution/vue-image-upload-resize/issues"
+  },
+  "homepage": "https://github.com/D3T-Distribution/vue-image-upload-resize#readme",
   "eslintConfig": {
     "root": true,
     "env": {
