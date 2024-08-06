@@ -208,6 +208,8 @@ export default {
     },
   },
 
+  emits: ['input', 'change', 'onUpload', 'onComplete'],
+
   data() {
     return {
       imagePreview: null,

@@ -42,6 +42,11 @@ export default {
   data() {
     return { hasImage: false };
   },
+  methods: {
+    setImage(image) {
+      console.log(image);
+    }
+  },
 };
 </script>
 

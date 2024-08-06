@@ -2890,7 +2890,7 @@ if (typeof window !== 'undefined') {
 
 ;// CONCATENATED MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/ImageUploader.vue?vue&type=template&id=086078b4
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/ImageUploader.vue?vue&type=template&id=2714a24c
 
 const _hoisted_1 = ["src"];
 const _hoisted_2 = ["id", "accept", "capture"];
@@ -2911,7 +2911,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }
   }, null, 42, _hoisted_2), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.renderSlot)(_ctx.$slots, "default")]);
 }
-;// CONCATENATED MODULE: ./src/components/ImageUploader.vue?vue&type=template&id=086078b4
+;// CONCATENATED MODULE: ./src/components/ImageUploader.vue?vue&type=template&id=2714a24c
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array-buffer.detached.js
 var es_array_buffer_detached = __webpack_require__(6573);
@@ -3943,6 +3943,7 @@ var canvas_to_blob_default = /*#__PURE__*/__webpack_require__.n(canvas_to_blob);
       default: 0
     }
   },
+  emits: ['input', 'change', 'onUpload', 'onComplete'],
   data() {
     return {
       imagePreview: null,
