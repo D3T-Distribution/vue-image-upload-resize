@@ -170,7 +170,7 @@ export default {
      */
     capture: {
       type: [String, Boolean],
-      default: false,
+      default: undefined,
     },
 
     /**
