@@ -40,7 +40,6 @@
   ],
   "license": "MIT",
   "main": "dist/vue-image-upload-resize.umd.js",
-  "module": "dist/vue-image-upload-resize.common.js",
   "unpkg": "dist/vue-image-upload-resize.umd.min.js",
   "browser": {
     "./sfc": "src/ImageUploader.vue"
